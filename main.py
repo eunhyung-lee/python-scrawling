@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-url = "https://weworkremotely.com/categories/remote-full-stack-programming-jobs#job-listings"
+url = "https://www.wanted.co.kr/search?query=python&tab=position"
 
 
 response = requests.get(url)
